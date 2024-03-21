@@ -1,0 +1,124 @@
+#BAI 1
+print(
+'''    
+i carry your heart with me (i carry it in 
+my heart) i am never without it (anywhere 
+i go you go, my dear; and whatever is done 
+by only me is your doing, my darling) 
+i fear no fate (for you are my fate, my sweet) 
+i want no world (for beautiful you are my world, my true) 
+and it's you are whatever a moon has always meant 
+and whatever a sun will always sing is you 
+here is the deepest secret nobody knows 
+(here is the root of the root and the bud of the bud 
+and the sky of the sky of a tree called life; which grows 
+higher than soul can hope or mind can hide) 
+and this is the wonder that's keeping the stars apart 
+i carry your heart (i carry it in my heart) ---i carry your heart with me by e.e. cummings---
+'''
+)
+
+#BAI 2
+ma_sach = input("Nhap ma sach : ")
+ten_sach = input("Nhap ten sach : ")
+tac_gia = input("Nhap tac gia : ")
+nam_xuat_ban = int(input("Nhap nam xuat ban : "))
+so_luong_sach = int(input("Nhap so luong sach : "))
+print(f"Thư viện ĐHKTKTCN có {so_luong_sach} sách {ten_sach} với mã số {ma_sach}. Cuốn sách của tác giả {tac_gia} được xuất bản vào năm {nam_xuat_ban}")
+
+#BAI 3
+so_tien_gui = 10000
+lai_suat = 0.06
+#So tien sau 5 nam
+amount_after_5_years = so_tien_gui * ((1 + lai_suat)**5)
+print(f"So tien se co sau 5 nam la : {amount_after_5_years:.2f} dollars ")
+#So tien sau 10 nam
+amount_after_10_years = so_tien_gui * ((1 + lai_suat)**10)
+print(f"So tien se co sau 10 nam la : {amount_after_10_years:.2f} dollars ")
+#Ti le tang truong sau 5 nam
+growth_rate = (amount_after_10_years - amount_after_5_years) / (amount_after_5_years)
+print(f"Ti le tang truong sau 5 nam la : {growth_rate} % ")
+
+#BAI 4
+do_dai_canh_day, chieu_cao_chop = map(int, input("Nhap do dai canh day va chieu cao cua hinh chop(Cach nhau bang khoang trong) : ").split())
+nua_chu_vi_day = do_dai_canh_day * 2
+s_day = do_dai_canh_day * 4
+s_xung_quanh = nua_chu_vi_day * chieu_cao_chop
+s_toan_phan = s_xung_quanh + s_day
+v_chop = 1/3 * (s_day * chieu_cao_chop)
+print(f"Dien tich xung quanh la : {s_xung_quanh:.2f}, dien tich toan phan la {s_toan_phan:.2f}, the tich la {v_chop:.2f}")
+
+#BAI 5
+hieu_dien_the = 220
+cuong_do_dong_dien = 1.5
+cong_suat = hieu_dien_the * cuong_do_dong_dien
+so_gio = int(input("Nhap so gio su dung : "))
+tong_so_gio = so_gio * 5000
+tong_tien = (cong_suat * tong_so_gio) / 1000 #1kWh = 1000Wh
+print(f"So tien phai tra la : {tong_tien} vnd")
+
+#BAI 6
+import math
+ax = float(input("Nhap hoanh do vector a : "))
+ay = float(input("Nhap tung do vector a : "))
+bx = float(input("Nhap hoanh do vector b : "))
+by = float(input("Nhap hoanh do vector b : "))
+#Tong hieu 2  vector
+tongabx = ax + bx
+tongaby = ay + by
+hieuabx = ax - bx
+hieuaby = ay - by
+print(f"Tong 2 vector a & b la : ({tongabx},{tongaby})")
+print(f"Hieu 2 vector a & b la : ({hieuabx},{hieuaby})")
+
+#Do dai 2 vector
+do_dai_a = math.sqrt(ax**2 + ay**2)
+do_dai_b = math.sqrt(bx**2 + by**2)
+print(f"Do dai vector a la : {do_dai_a}")
+print(f"Do dai vector b la : {do_dai_b}")
+
+#Cosin goc hop giua 2 vector
+cosinab = (ax*bx + ay*by) / (do_dai_a * do_dai_b)
+print(f"Cosin goc xen giua 2 vector a & b la : {cosinab:.2f}")
+
+#BAI 7
+a1, b1, c1 = map(int, input("Nhap he so a1, b1, c1 (Cach nhau bang khoang trong): ").split())
+a2, b2, c2 = map(int, input("Nhap he so a2, b2, c2 (Cach nhau bang khoang trong): ").split())
+print(f"He phuong trinh da nhap : {a1}x + {b1}y = {c1} \n{' '*26}{a2}x + {b2}y = {c2}")
+
+#Tinh x,y bang phuong phap cramer
+y = (c2*a1 - c1*a2) / (b2*a1 - b1*a2)
+x = (c1 - b1*y) / a1
+print(f"Gia tri cua x la: {x:.2f}")
+print(f"Gia tri cua y la: {y:.2f}")
+
+#BAI 8
+import math
+e = math.e
+x,z = map(float, input("Nhap x,z(Cach nhau bang khoang trong) : ").split())
+tu = (x**2)*math.sin(z) + math.sqrt(abs(x)) #Tinh tu so
+mau = math.log(z) + math.pow(e, x-1) #Tinh mau so
+fxz = (tu/mau) + math.atan(x*z)
+print(f"fxz = {fxz:.2f}")
+
+#BAI 9
+mx,my = map(int, input("Nhap toa do M(Cach nhau bang khoang trong) : ").split())
+nx,ny = map(int, input("Nhap toa do N(Cach nhau bang khoang trong) : ").split())
+px,py = map(int, input("Nhap toa do P(Cach nhau bang khoang trong) : ").split())
+qx,qy = map(int, input("Nhap toa do Q(Cach nhau bang khoang trong) : ").split())
+mn = ((mx+nx)/2, (my+ny)/2)
+np = ((nx+px)/2, (ny+py)/2)
+pq = ((px+qx)/2, (py+qy)/2)
+mq = ((mx+qx)/2, (my+qy)/2)
+print(f"Trung diem MN la {mn}\nTrung diem NP la {np}\nTrung diem PQ la {pq}\nTrung diem MQ la {mq}")
+
+
+#BAI 10
+do = 20
+xanh = 15
+vang = 15
+bi = 50
+so_bi_rut = int(input("Nhap so bi muon rut : "))
+xac_suat_do = (do/bi) ** so_bi_rut #Xac suat bi do
+xac_suat_xanh = 1 - ((bi - xanh)/bi) ** so_bi_rut #Xac suat bi xanh
+print(f"Xac suat tat ca la bi do : {xac_suat_do}\nXac suat it nhat 1 xanh : {xac_suat_xanh} ")

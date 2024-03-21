@@ -1,0 +1,6 @@
+ma_sach = input("Nhap ma sach : ")
+ten_sach = input("Nhap ten sach : ")
+tac_gia = input("Nhap tac gia : ")
+nam_xuat_ban = int(input("Nhap nam xuat ban : "))
+so_luong_sach = int(input("Nhap so luong sach : "))
+print(f"Thư viện ĐHKTKTCN có {so_luong_sach} sách {ten_sach} với mã số {ma_sach}. Cuốn sách của tác giả {tac_gia} được xuất bản vào năm {nam_xuat_ban}")
