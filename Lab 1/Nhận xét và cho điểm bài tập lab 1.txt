@@ -1,0 +1,36 @@
++ Kết quả chạy chương trình từng bài em nên để riêng từng file, không để chung 1 file như vậy
+
++ Nhận xét và cho điểm từng bài:
+- Bài 1: đúng
+Điểm bài tập: 1.0 
+
+- Bài 2: đúng
+Điểm bài tập: 1.0 
+
+- Bài 3: đề bài yêu cầu tỷ lệ tăng trưởng lấy kết quả sau dấu phẩy 2 chữ số thập phân
+Điểm bài tập: 0.75
+
+- Bài 4: đúng
+Điểm bài tập: 1.0 
+
+- Bài 5: đúng
+Điểm bài tập: 1.0 
+
+- Bài 6: đúng
+Điểm bài tập: 1.0 
+
+- Bài 7: đúng
+Điểm bài tập: 1.0 
+
+- Bài 8: đúng
+Điểm bài tập: 1.0 
+
+- Bài 9: đúng
+Điểm bài tập: 1.0 
+
+- Bài 10: 
+Điểm bài tập: 1.0
+
+Tổng điểm bài tập lab 1: 9.75
+
+
