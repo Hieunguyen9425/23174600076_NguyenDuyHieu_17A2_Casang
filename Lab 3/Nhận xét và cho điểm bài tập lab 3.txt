@@ -1,0 +1,26 @@
+- Bài 1: 
+a) đúng
+b) đúng
+c) đúng
+d) đúng
+Điểm bài tập: 2.0
+
+- Bài 2: 
+a) đúng
+b) đúng
+Điểm bài tập: 2.0
+
+- Bài 3:
+a) đúng
+b) đúng
+c) đúng
+d) 24 không phải số hoàn hảo. Số hoàn hảo là số mà tổng tất cả các ước của một số bằng số đó. Tức là em phải tìm ước trước sau đó mới kiểm tra điều kiện. Nhưng bài này của em việc kiểm tra điều kiện thì nằm hoàn toàn trong vòng lặp
+e) đúng
+Điểm bài tập: 4.0
+
+- Bài 4:
+a) đúng
+b) đúng
+Điểm bài tập: 1.0
+
+Tổng điểm bài tập lab 3: 9.0
