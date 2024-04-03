@@ -1,3 +1,5 @@
+Phần code giống y hệt code của bạn Trần Thanh Sơn (ca chiều). Tổng điểm của bài sẽ bị chia đôi cho 2 bạn
+
 - Bài 1: 
 a) đúng
 b) đúng
@@ -23,4 +25,4 @@ a) đúng
 b) đúng
 Điểm bài tập: 1.0
 
-Tổng điểm bài tập lab 3: 9.0
+Tổng điểm bài tập lab 3: 9.0 : 2 = 4.5 
